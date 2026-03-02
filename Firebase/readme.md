@@ -1,84 +1,98 @@
-# 📘 How to Use Firebase – Quick Note
+# 📘 How to Use Firebase – Quick Guide
 
 Hey you two,  
-This tutorial is a simple note on how to use Firebase for this project.
+
+This is a simple guide explaining how to use Firebase for this project. Please follow the steps carefully to avoid breaking anything.
 
 ---
 
-## 🔥 First, Let’s Start with Firebase
+## 🔥 Step 1: Open the Firebase Project
 
-[Step 1 – Open Project](https://raw.githubusercontent.com/AC1DST4R/Readmephotos/refs/heads/main/How%20to%20Use%20Firebase/1.png)
+![Step 1 – Open Project](https://raw.githubusercontent.com/AC1DST4R/Readmephotos/refs/heads/main/How%20to%20Use%20Firebase/1.png)
 
-Select **“Github Backend V2”** to enter the project.
+Open Firebase and select:
 
----
+**“Github Backend V2”**
 
-## 🗂 Open Firestore Database
-
-[Step 2 – Firestore Database](https://raw.githubusercontent.com/AC1DST4R/Readmephotos/refs/heads/main/How%20to%20Use%20Firebase/2.png)
-
-Select **“Firestore Database.”**
-
-⚠ **DO NOT** touch anything else.  
-Changing other settings can break things and create extra work for me.
+This will take you into the correct project dashboard.
 
 ---
 
-## 📦 Managing Firestore Data
+## 🗂 Step 2: Open Firestore Database
 
-[Step 3 – Firestore Data View](https://raw.githubusercontent.com/AC1DST4R/Readmephotos/refs/heads/main/How%20to%20Use%20Firebase/3.png)
+![Step 2 – Firestore Database](https://raw.githubusercontent.com/AC1DST4R/Readmephotos/refs/heads/main/How%20to%20Use%20Firebase/2.png)
 
-This is the Firestore data.
+From the sidebar, click:
 
-- You can delete individual messages by hovering over an object and using the **3-dot menu**.
-- To wipe all servers completely, delete the `servers` directory.
+**Firestore Database**
 
-Be careful — deletions cannot be undone.
-
----
-
-## 🔐 Moving to the Rules Tab
-
-[Step 4 – Rules Tab](https://raw.githubusercontent.com/AC1DST4R/Readmephotos/refs/heads/main/How%20to%20Use%20Firebase/4.png)
-
-Click on the **“Rules”** tab.
+⚠ **Important:**  
+Do **NOT** click or modify anything else in the Firebase console.  
+Changing unrelated settings can break the backend and create unnecessary extra work.
 
 ---
 
-## ⚠ Firestore Rules
+## 📦 Step 3: Managing Firestore Data
 
-[Step 5 – Firestore Rules](https://raw.githubusercontent.com/AC1DST4R/Readmephotos/refs/heads/main/How%20to%20Use%20Firebase/5.png)
+![Step 3 – Firestore Data View](https://raw.githubusercontent.com/AC1DST4R/Readmephotos/refs/heads/main/How%20to%20Use%20Firebase/3.png)
 
-These are the Firestore rules.
+Inside Firestore, you will see the database collections.
 
-🚫 **DO NOT** touch anything here unless:
-- You fully understand what you're doing  
+### Deleting Individual Messages
+- Hover over a document.
+- Click the **three-dot menu (⋮)**.
+- Select **Delete**.
+
+### Deleting All Servers
+- Delete the `servers` collection.
+
+---
+
+## 🔐 Step 4: Open the Rules Tab
+
+![Step 4 – Rules Tab](https://raw.githubusercontent.com/AC1DST4R/Readmephotos/refs/heads/main/How%20to%20Use%20Firebase/4.png)
+
+At the top of the Firestore page, click:
+
+**Rules**
+
+---
+
+## ⚠ Step 5: Firestore Rules
+
+![Step 5 – Firestore Rules](https://raw.githubusercontent.com/AC1DST4R/Readmephotos/refs/heads/main/How%20to%20Use%20Firebase/5.png)
+
+This section controls backend permissions.
+
+🚫 **Do NOT modify anything here unless:**
+- You fully understand Firestore security rules  
 - OR AI specifically instructs you to change something  
 
-Messing with rules can break the entire backend.
+Incorrect rule changes can completely break the backend.
 
 ---
 
-# 📝 Notes
+# 📝 Notes & FAQ
 
-### ❓ “But you said AI? Y-You don’t use AI?”
+## ❓ “You said AI? You don’t use AI?”
 
-A: I don’t personally use AI for development.  
-However, I gave you permission to use AI to help code this project.
+**Answer:**  
+I don’t personally rely on AI for development.  
 
-Think of AI as a rough draft tool.  
-I will polish everything later and recode it properly if needed.
+However, you are allowed to use AI to help write code for this project.
+
+Think of AI as a rough draft assistant —  
+I will review, polish, and properly refactor everything afterward if needed.
 
 ---
 
-### ❓ “How do I update the code?”
+## ❓ How Do I Update the Website?
 
-The GitHub Pages site is here:  
+The live GitHub Pages site is:  
 https://ac1dst4r.github.io/GitChatV2/
 
-To update the site:
-
-1. Make your changes inside `index.html` in the repository.
-2. Push the changes to GitHub.
-3. Wait about a minute — GitHub Pages takes a little time to reflect updates.
-4. Refresh the site to see your changes.
+### To Update:
+1. Edit `index.html` in the repository.
+2. Commit and push your changes to GitHub.
+3. Wait about 1 minute (GitHub Pages needs time to deploy).
+4. Refresh the site to see the update.
